@@ -3,7 +3,7 @@ version: '3.1'
 services:
 
   bitblog:
-    image: theoafactor/bitblog:123
+    image: bitblog:1
     restart: always
     depends_on:
       - mysql
